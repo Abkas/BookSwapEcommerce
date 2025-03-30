@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+
+ul , ol {
+    list-style: none;
+}
+a{
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color: black;
+}
+
+.login:hover{
+    background-color: #FF8C42;
+    color: black;
+}
+body{
+    background: linear-gradient(to bottom, #E3F2FD, #BBDEFB);
+}
+.login-main{
+    display: flex;
+    margin: 180px 212px 20px 212px;
+    gap: 50px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+/* BOX ONE */
+.box-one{
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    height: 560px;
+    align-items: center;
+    gap: 60px;
+    background-color: #BBDEFB;
+    border: 2px solid #E0E0E0;
+    box-shadow: 6px 10px 5px #8EA7BC;
+
+}
+
+.one-content{margin-top: 20px;
+    padding: 0px 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.change-color{
+    color: #FF8C42;
+}
+
+/* BOX TWO */
+
+.box-two{
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    height: 560px;
+    background-color: #BBDEFB;
+    border: 2px solid #E0E0E0;
+    box-shadow: 6px 10px 5px #8EA7BC;
+}
+
+
+.cross{    
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 0px 125px;
+}
+
+.first-heading{
+    font-size: 32px;
+    font-weight: 500;
+}
+.first-content{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.second-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icons li{
+
+}
+.second-content{
+    color: #FF8C42;
+    text-decoration: underline;
+
+}
+
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.third-username{
+    display: flex;
+    width: 100%;
+}
+
+.username-content{
+    margin-left: 80px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #896B6B;
+}
+.line-below{
+    width: 350px;
+    margin-top: -7px;
+    border: 1px solid #896B6B;
+}
+
+.third-password{
+    display: flex;
+    gap: 200px;
+    width: 100%;
+}
+.third-password p{
+    font-size: 18px;
+    margin-left: 80px;
+    font-weight: normal;
+    color: #896B6B;
+}
+.third-password span{
+
+}
+
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #FF8C42;
+    border-radius: 19px;
+    width: 310px;
+    border: 2px solid black;
+    padding: 22px;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: #66CCFF;
+}
+.third-content{
+    display: flex;
+    margin-top: 7px;
+    gap: 65px;
+}
+.third-content p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/* FOOTER */
+
+.login-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    display: flex;
+    gap: 37px;
+    align-items: centre;
+}
+
+.footer-content li{
+    color: #FF8C42;
+    font-size: 18px;
+}
+
+/* Original CSS remains unchanged */
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .login-main {
+        margin: 100px 100px 20px 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .login-main {
+        margin: 80px 50px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .login-main {
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 40px 20px 40px;
+        gap: 40px;
+    }
+    
+    .box-one, .box-two {
+        width: 100%;
+        max-width: 505px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-main {
+        margin: 40px 20px 20px 20px;
+    }
+    
+    .one-content {
+        padding: 0px 40px;
+        font-size: 32px;
+    }
+    
+    .first-section {
+        padding: 0px 50px;
+    }
+    
+    .first-heading {
+        font-size: 28px;
+    }
+    
+    .first-content {
+        font-size: 16px;
+    }
+    
+    .line-below {
+        width: 80%;
+    }
+    
+    .username-content, .third-password p {
+        margin-left: 40px;
+    }
+    
+    .third-password {
+        gap: 100px;
+    }
+    
+    .sign-in {
+        width: 80%;
+    }
+    
+    .third-content {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .box-one, .box-two {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .one-content {
+        padding: 0px 20px;
+        font-size: 28px;
+    }
+    
+    .first-section {
+        padding: 0px 30px;
+    }
+    
+    .icons {
+        gap: 15px;
+    }
+    
+    .third-password {
+        gap: 50px;
+    }
+    
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .footer-content li {
+        font-size: 16px;
+    }
+}

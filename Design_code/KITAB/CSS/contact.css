@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+
+ul , ol {
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color: black;
+}
+
+.login:hover{
+    background-color: #FF8C42;
+    color: black;
+}
+
+
+body{
+    background: linear-gradient(to bottom, #E3F2FD, #BBDEFB);
+}
+.contact-main{
+    display: flex;
+    margin: 180px 212px 20px 212px;
+    gap: 50px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+/* BOX ONE */
+.box-one{
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    height: 560px;
+    align-items: center;
+}
+
+.change-color{
+    color: #FF8C42;
+}
+
+/* BOX TWO */
+
+.box-two{
+    width: 580px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F1F1;
+    clip-path: polygon(100px 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+}
+
+.section-one{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    width: 100%;
+}
+.first-content{
+    font-size: 16px;
+    font-weight: 500;
+    width: 340px;
+    height: 90px;
+    margin-right: 60px;
+    text-align: right;
+
+}
+.first-link{
+    color: #EF401F;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: 60px;
+}
+
+
+.fill-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.Email{
+    font-size: 16px;
+}
+
+.Messaeg{
+    font-size: 16px;
+}
+
+
+
+.line-below{
+    width: 350px;
+    border: 1px;
+    border: 1px solid black;
+}
+
+.Message .line-below{
+    margin-top: 130px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: #FF8C42;
+    margin-top: 85px;
+    gap: 20px;
+}
+
+.button:hover{
+    background-color: #66CCFF;
+}
+svg{
+    fill: white;
+}
+/* FOOTER */
+
+.contact-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    display: flex;
+    gap: 37px;
+    align-items: centre;
+}
+
+.footer-content li{
+    color: #FF8C42;
+    font-size: 18px;
+}
+
