@@ -1,2 +1,22 @@
-# BookSwapEcommerce
-An eCommerce platform where vendors and customers can buy, sell, and trade second-hand books. Built with HTML, CSS, and Figma for UI design."  This keeps it clear and concise while highlighting the purpose and technologies used. Let me know if you want any modifications! 
+# 📚 KITAB - Online Book Trading Platform
+
+KITAB is an **eCommerce platform** designed for buying, selling, and trading second-hand books. It enables both vendors and customers to create accounts, list books for sale, and interact with potential buyers. This project includes the **frontend (HTML & CSS)** along with a **Figma design** for the UI/UX.  
+
+---
+
+## 🌟 Features
+✅ **User Accounts** – Vendors and customers can create profiles.  
+✅ **Book Listings** – Users can add, edit, and remove book listings.  
+✅ **Search & Filter** – Browse books by categories, price, and condition.  
+✅ **Figma UI Design** – Includes a design reference for future development.  
+
+---
+
+## 🏗️ Project Setup  
+
+### 1️⃣ Clone the Repository  
+Use the following command in your terminal:  
+```bash
+git clone https://github.com/yourusername/KITAB.git
+cd KITAB
+
